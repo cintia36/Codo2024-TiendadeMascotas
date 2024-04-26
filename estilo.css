@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica,sans-serif;
+
+}
+.content{
+    /*width: 1200px;  */
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+
+}
+header{
+    /* width: 100%; */
+    background-color: #ffff99;
+    /* height: 90px; */
+    
+}
+header img{
+    /* float:left; */
+    height: 80px;
+    width: auto;
+    /* display: block; */
+}
+
+nav{
+    /* float: right; */
+}
+
+.half{
+    /* width: 50%;
+    float: left;
+    text-align: center; */
+}
+.half img{
+    /* width: 100%;
+    height: auto; */
+
+}
+.half h1{
+    /* margin-top: 300px; */
+    line-height: 30px;
+}
+.servicios{
+    /* width: 980px; */
+    list-style: none;
+    margin: 0 auto;
+}
+.servicios li{
+    /*float: left;
+     width: 200px;
+    height: 200px; */
+    text-align: center;
+    color: black;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+.servicios li img{
+    height: 90px;
+    width: auto;
+    margin: 20px auto;
+    display: block;
+}
+footer{
+    width: 100%;
+    background:#ffff99;
+    padding: 40px;
+    text-align: center;
+}
+
+.carousel-item img {
+    height: 200px;
+}
+#productos .card{
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+}

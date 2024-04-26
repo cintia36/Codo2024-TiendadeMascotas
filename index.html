@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>El hogar de tu mascota</title>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="mb-5">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="./recursos/M_logocasamascotas3875.png" />
+            </a>
+
+            <form class="col-12 col-lg-4 ms-lg-auto mb-3 mb-lg-0" role="search">             
+              <input type="search" class="form-control form-control-dark text-bg-light rounded-pill"
+               placeholder="Buscar..." aria-label="Search">
+            </form>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <!--<li><a href="#" class="nav-link px-2 text-secondary">Mascotas</a></li>-->
+              <li><a href="./Productos.html" class="nav-link px-2 text-black">Productos</a></li>
+              <li><a href="#" class="nav-link px-2 text-black">Servicios</a></li>
+              <li><a href="#" class="nav-link px-2 text-black">Contactos</a></li>
+              <li><a href="#" class="nav-link px-2 text-black">Mascotas</a></li>
+            </ul>
+
+            
+          </div>
+      
+          <!--
+            <div class="col-3">
+                <img src="./recursos/M_logocasamascotas3875.png" />
+            </div>
+            <div class="col-9">
+                <nav>
+                    <a href="#">Mascota</a>
+                    <a href="#">Marca</a>
+                    <a href="#">Servicio</a>
+                </nav>
+                
+            </div> -->
+        </header>
+        
+        <div class="row">
+          <div class="col">
+            <div class="text-center">
+              10 % off  <img src="./recursos/Envio_programado.png">
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    
+                      
+
+                    <div class="carousel-inner">
+                    
+                      
+                      <div class="carousel-item active">
+                            <img src="./recursos/carousel-1.png" class="d-block w-100" alt="Slide 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <!--<h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>-->
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./recursos/cuchas.png" class="d-block w-100" alt="Slide 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <!--<h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>-->
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./recursos/carrousel3.png" class="d-block w-100" alt="Slide 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <!--<h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>-->
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div  class="row mt-5" >
+          <div class="col-12">
+            <h4>Productos para cada mascota</h4>
+          </div>
+
+        </div>
+        <section id="productos" class="row mb-5">
+            <div class="col-3">
+                <div class="card">
+                    <img src="./recursos/perro.png" class="card-img-top" alt="perrito lindo">
+                    <div class="card-footer">
+                        Perros.
+                    </div>
+                </div>                
+            </div>
+            <div class="col-9 col-lg-3">
+                <div class="card">
+                    <img src="./recursos/gato.png" class="card-img-top" alt="gatito lindo">
+                    <div class="card-footer">
+                        Gatos.
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./recursos/roedores.png" class="card-img-top" alt="roedores lindos">
+                    <div class="card-footer">
+                        Roedores.
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./recursos/aves.png" class="card-img-top" alt="aves lindas">
+                    <div class="card-footer">
+                        Aves.
+                    </div>
+                </div>
+                
+            </div>
+        </section>       
+        <div class="row p-4 bg-warning">
+            <div class="col">
+                <div class="fixed-bottom text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+</body>
+</html>

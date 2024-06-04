@@ -3,680 +3,131 @@
     {
       "productId": 3631,
       "name": "Royal Canin Fit 7.5 Kg",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Peso"
-      ],
-      "dimensionsInputType": {
-          "Peso": "Radio"
-      },
-      "dimensionsMap": {
-          "Peso": [
-              "7.5 Kg"
-          ]
-      },
       "id": 3631,
       "skus": [
           {
-              "sku": 205245,
-              "skuname": "7,5 Kg",
-              "dimensions": {
-                  "Peso": "7.5 Kg"
-              },
-              "available": true,
-              "availablequantity": 99999,
-              "cacheVersionUsedToCallCheckout": "_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 66.150,00",
               "bestPrice": 6615000,
-              "spotPrice": 6615000,
-              "installments": 1,
-              "installmentsValue": 6615000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/196469-600-600/100138.jpg?v=638511567536070000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 3562.5,
-                  "height": 38,
-                  "length": 7500,
-                  "weight": 18,
-                  "width": 60
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/196469-600-600/100138.jpg?v=638511567536070000"
           }
       ]
-    }, 
-    {
+    }, {
       "productId": 3126,
       "name": "Alimento Excellent Urinary Arroz y Pollo para Gato",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Peso"
-      ],
-      "dimensionsInputType": {
-          "Peso": "Radio"
-      },
-      "dimensionsMap": {
-          "Peso": [
-              "7.5 Kg"
-          ]
-      },
       "id": 3126,
       "skus": [
           {
-              "sku": 204334,
-              "skuname": "7,5 Kg",
-              "dimensions": {
-                  "Peso": "7.5 Kg"
-              },
-              "available": true,
-              "availablequantity": 10,
-              "cacheVersionUsedToCallCheckout": "56EF8B4FE6DA4B6D81A3FD2E264F674C_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 49.090,00",
               "bestPrice": 4909000,
-              "spotPrice": 4909000,
-              "installments": 1,
-              "installmentsValue": 4909000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/196214-600-600/150029.jpg?v=638482808155070000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 8.55,
-                  "height": 18,
-                  "length": 60,
-                  "weight": 7500,
-                  "width": 38
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/196214-600-600/150029.jpg?v=638482808155070000"
           }
       ]
-    },
-    {
+    }, {
       "productId": 3088,
       "name": "Alimento Excellent Pollo Y Arroz para Gato",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Peso"
-      ],
-      "dimensionsInputType": {
-          "Peso": "Radio"
-      },
-      "dimensionsMap": {
-          "Peso": [
-              "3 Kg"
-          ]
-      },
       "id": 3088,
       "skus": [
           {
-              "sku": 204262,
-              "skuname": "3 Kg",
-              "dimensions": {
-                  "Peso": "3 Kg"
-              },
-              "available": true,
-              "availablequantity": 99999,
-              "cacheVersionUsedToCallCheckout": "0539DD6048A2451AAC2766E3AB998D5C_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 20.540,00",
               "bestPrice": 2054000,
-              "spotPrice": 2054000,
-              "installments": 1,
-              "installmentsValue": 2054000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/196206-600-600/150019.jpg?v=638482805682400000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 2.625,
-                  "height": 10,
-                  "length": 28,
-                  "weight": 3000,
-                  "width": 45
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/196206-600-600/150019.jpg?v=638482805682400000"
           }
       ]
-    },
-    {
+    }, {
       "productId": 62,
       "name": "Alimento Eukanuba Para Perro Adulto Raza Grande 15 Kg",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Peso Alimento"
-      ],
-      "dimensionsInputType": {
-          "Peso Alimento": "Radio"
-      },
-      "dimensionsMap": {
-          "Peso Alimento": [
-              "15 Kg"
-          ]
-      },
       "id": 62,
       "skus": [
           {
-              "sku": 146,
-              "skuname": "15 Kg",
-              "dimensions": {
-                  "Peso Alimento": "15 Kg"
-              },
-              "available": true,
-              "availablequantity": 99999,
-              "cacheVersionUsedToCallCheckout": "9A24D299F95941C18A8E94CC90FDD1AA_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 53.700,00",
               "bestPrice": 5370000,
-              "spotPrice": 5370000,
-              "installments": 1,
-              "installmentsValue": 5370000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/194767-600-600/138003-138002-8.jpg?v=638314170691530000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 20.8333,
-                  "height": 25,
-                  "length": 50,
-                  "weight": 15000,
-                  "width": 80
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/194767-600-600/138003-138002-8.jpg?v=638314170691530000"
           }
       ]
     }, {
       "productId": 7120,
       "name": "Alimento Excellent Skin Care Cordero para Perro Adulto",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Peso Alimento"
-      ],
-      "dimensionsInputType": {
-          "Peso Alimento": "Radio"
-      },
-      "dimensionsMap": {
-          "Peso Alimento": [
-              "15 Kg"
-          ]
-      },
       "id": 7120,
       "skus": [
           {
-              "sku": 210212,
-              "skuname": "15 Kg",
-              "dimensions": {
-                  "Peso Alimento": "15 Kg"
-              },
-              "available": true,
-              "availablequantity": 99999,
-              "cacheVersionUsedToCallCheckout": "67A79DA2DDA24DC3BFF05FAF7E783969_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 52.690,00",
               "bestPrice": 5269000,
-              "spotPrice": 5269000,
-              "installments": 1,
-              "installmentsValue": 5269000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/196576-600-600/150057-150056.jpg?v=638525039001270000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 1,
-                  "height": 25,
-                  "length": 50,
-                  "weight": 15000,
-                  "width": 80
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/196576-600-600/150057-150056.jpg?v=638525039001270000"
           }
       ]
     }, {
       "productId": 631,
       "name": "Alimento Maintenance Criadores Adulto",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Peso Alimento"
-      ],
-      "dimensionsInputType": {
-          "Peso Alimento": "Radio"
-      },
-      "dimensionsMap": {
-          "Peso Alimento": [
-              "22 Kg"
-          ]
-      },
       "id": 631,
       "skus": [
           {
-              "sku": 1247,
-              "skuname": "22 kg",
-              "dimensions": {
-                  "Peso Alimento": "22 Kg"
-              },
-              "available": true,
-              "availablequantity": 99999,
-              "cacheVersionUsedToCallCheckout": "4178AF0321D24D2682E8453976FA3DD9_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 30.050,00",
               "bestPrice": 3005000,
-              "spotPrice": 3005000,
-              "installments": 1,
-              "installmentsValue": 3005000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/158003-600-600/150002.png?v=635894318957130000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 1,
-                  "height": 80,
-                  "length": 80,
-                  "weight": 22000,
-                  "width": 10
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/158003-600-600/150002.png?v=635894318957130000"
           }
       ]
     }, {
       "productId": 7832,
       "name": "Adorno Marina Cool Dibujo Estrella de Mar",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Tamaño"
-      ],
-      "dimensionsInputType": {
-          "Tamaño": "Radio"
-      },
-      "dimensionsMap": {
-          "Tamaño": [
-              "Único"
-          ]
-      },
       "id": 7832,
       "skus": [
           {
-              "sku": 211340,
-              "skuname": "Adorno Marina Cool Dibujo Estrella de Mar",
-              "dimensions": {
-                  "Tamaño": "Único"
-              },
-              "available": true,
-              "availablequantity": 2,
-              "cacheVersionUsedToCallCheckout": "_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 3.800,00",
               "bestPrice": 380000,
-              "spotPrice": 380000,
-              "installments": 1,
-              "installmentsValue": 380000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/183646-600-600/228498.jpg?v=637710847870070000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 1.875,
-                  "height": 30,
-                  "length": 20,
-                  "weight": 500,
-                  "width": 15
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/183646-600-600/228498.jpg?v=637710847870070000"
           }
       ]
     }, {
       "productId": 7687,
       "name": "Planta Pennplax Plástica Base Extra",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Tamaño"
-      ],
-      "dimensionsInputType": {
-          "Tamaño": "Radio"
-      },
-      "dimensionsMap": {
-          "Tamaño": [
-              "L"
-          ]
-      },
       "id": 7687,
       "skus": [
           {
-              "sku": 211053,
-              "skuname": "L",
-              "dimensions": {
-                  "Tamaño": "L"
-              },
-              "available": true,
-              "availablequantity": 3,
-              "cacheVersionUsedToCallCheckout": "A49C896F65F14C5696A042C7945689C4_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 11.210,00",
               "bestPrice": 1121000,
-              "spotPrice": 1121000,
-              "installments": 1,
-              "installmentsValue": 1121000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/189599-600-600/251163.jpg?v=638005817318470000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 1.6667,
-                  "height": 20,
-                  "length": 20,
-                  "weight": 300,
-                  "width": 20
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/189599-600-600/251163.jpg?v=638005817318470000"
           }
       ]
     }, {
       "productId": 7684,
       "name": "Aqua Plants Pennplax x6",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Tamaño"
-      ],
-      "dimensionsInputType": {
-          "Tamaño": "Radio"
-      },
-      "dimensionsMap": {
-          "Tamaño": [
-              "S"
-          ]
-      },
       "id": 7684,
       "skus": [
           {
-              "sku": 211047,
-              "skuname": "10 cm",
-              "dimensions": {
-                  "Tamaño": "S"
-              },
-              "available": true,
-              "availablequantity": 2,
-              "cacheVersionUsedToCallCheckout": "1AADDD9212214FAFB70241630C52A6BD_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 13.080,00",
               "bestPrice": 1308000,
-              "spotPrice": 1308000,
-              "installments": 1,
-              "installmentsValue": 1308000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/183250-600-600/251150.jpg?v=637698190610870000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 1.6667,
-                  "height": 20,
-                  "length": 20,
-                  "weight": 300,
-                  "width": 20
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/183250-600-600/251150.jpg?v=637698190610870000"
           }
       ]
     }, {
       "productId": 6089,
       "name": "Planta Pennplax Aqua",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Tamaño"
-      ],
-      "dimensionsInputType": {
-          "Tamaño": "Radio"
-      },
-      "dimensionsMap": {
-          "Tamaño": [
-              "30cm"
-          ]
-      },
       "id": 6089,
       "skus": [
           {
-              "sku": 208757,
-              "skuname": "30cm",
-              "dimensions": {
-                  "Tamaño": "30cm"
-              },
-              "available": true,
-              "availablequantity": 2,
-              "cacheVersionUsedToCallCheckout": "_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 31.120,00",
               "bestPrice": 3112000,
-              "spotPrice": 3112000,
-              "installments": 1,
-              "installmentsValue": 3112000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/176315-600-600/251146.jpg?v=637534369624330000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 1.875,
-                  "height": 30,
-                  "length": 20,
-                  "weight": 300,
-                  "width": 15
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/176315-600-600/251146.jpg?v=637534369624330000"
           }
       ]
     }, {
       "productId": 3007,
       "name": "Stick Para Perico De Vegetales",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Presentación"
-      ],
-      "dimensionsInputType": {
-          "Presentación": "Radio"
-      },
-      "dimensionsMap": {
-          "Presentación": [
-              "40 Gr"
-          ]
-      },
       "id": 3007,
       "skus": [
           {
-              "sku": 204070,
-              "skuname": "40 Gr",
-              "dimensions": {
-                  "Presentación": "40 Gr"
-              },
-              "available": true,
-              "availablequantity": 99999,
-              "cacheVersionUsedToCallCheckout": "_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 3.350,00",
               "bestPrice": 335000,
-              "spotPrice": 335000,
-              "installments": 1,
-              "installmentsValue": 335000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/166846-600-600/242096.jpg?v=636957681272700000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 5.625,
-                  "height": 30,
-                  "length": 30,
-                  "weight": 400,
-                  "width": 30
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/166846-600-600/242096.jpg?v=636957681272700000"
           }
       ]
     }, {
       "productId": 9104,
       "name": "Tunel Para Aves",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Tamaño"
-      ],
-      "dimensionsInputType": {
-          "Tamaño": "Combo"
-      },
-      "dimensionsMap": {
-          "Tamaño": [
-              "Chico"
-          ]
-      },
       "id": 9104,
       "skus": [
           {
-              "sku": 213594,
-              "skuname": "10x20",
-              "dimensions": {
-                  "Tamaño": "Chico"
-              },
-              "available": true,
-              "availablequantity": 2,
-              "cacheVersionUsedToCallCheckout": "_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 8.590,00",
               "bestPrice": 859000,
-              "spotPrice": 859000,
-              "installments": 1,
-              "installmentsValue": 859000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/166856-600-600/242107.jpg?v=636957681305730000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 5.625,
-                  "height": 30,
-                  "length": 30,
-                  "weight": 400,
-                  "width": 30
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/166856-600-600/242107.jpg?v=636957681305730000"
           }
       ]
     }, {
       "productId": 3000,
       "name": "Stick De Vegetales Para Canario",
-      "salesChannel": "1",
-      "available": true,
-      "displayMode": "especificacao",
-      "dimensions": [
-          "Presentación"
-      ],
-      "dimensionsInputType": {
-          "Presentación": "Radio"
-      },
-      "dimensionsMap": {
-          "Presentación": [
-              "40 Gr"
-          ]
-      },
       "id": 3000,
       "skus": [
           {
-              "sku": 204063,
-              "skuname": "40 Gr",
-              "dimensions": {
-                  "Presentación": "40 Gr"
-              },
-              "available": true,
-              "availablequantity": 99999,
-              "cacheVersionUsedToCallCheckout": "_",
-              "listPriceFormated": "$ 0,00",
-              "listPrice": 0,
-              "taxFormated": "$ 0,00",
-              "taxAsInt": 0,
-              "bestPriceFormated": "$ 3.350,00",
               "bestPrice": 335000,
-              "spotPrice": 335000,
-              "installments": 1,
-              "installmentsValue": 335000,
-              "installmentsInsterestRate": 0,
-              "image": "https://puppis.vteximg.com.br/arquivos/ids/166839-600-600/242095.jpg?v=636957681246770000",
-              "sellerId": "1",
-              "seller": "Puppis",
-              "measures": {
-                  "cubicweight": 5.625,
-                  "height": 30,
-                  "length": 30,
-                  "weight": 400,
-                  "width": 30
-              },
-              "unitMultiplier": 1,
-              "rewardValue": 0
+              "image": "https://puppis.vteximg.com.br/arquivos/ids/166839-600-600/242095.jpg?v=636957681246770000"
           }
       ]
     }

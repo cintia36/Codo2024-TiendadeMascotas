@@ -82,3 +82,11 @@ footer{
     border-right: 0;
     border-top: 0;
 }
+
+#productosContainer .col-3.mt-2 .card {
+    height: 100%;
+}
+
+.productoNombre {
+    min-height: 48px;
+}

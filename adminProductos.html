@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/estilo.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <title>CRUD productos</title>
+    <script src="/js/adminProductos.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container gx-4 gy-4">
+        <header class="row">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <img src="./recursos/M_logocasamascotas3875.png" />
+            </a>
+
+            <form class="col-12 col-lg-4 ms-lg-auto mb-3 mb-lg-0" role="search">             
+              <input type="search" class="form-control form-control-dark text-bg-light rounded-pill" placeholder="Buscar..." aria-label="Search">
+            </form>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <!--<li><a href="#" class="nav-link px-2 text-secondary">Mascotas</a></li>-->
+              <li><a href="#" class="nav-link px-2 active">Productos</a></li>
+              <li><a href="#" class="nav-link px-2 text-black">Servicios</a></li>
+              <li><a href="#" class="nav-link px-2 text-black">Contactos</a></li>
+              <li><a href="#" class="nav-link px-2 text-black">Mascotas</a></li>
+            </ul>            
+          </div>
+        </header>
+        <div class="row mt-5">
+          <div class="col">
+            <form name="agregarForm">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button id="btnAccordion" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Agregar producto
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="row mb-3">
+                        <div class="col-4">
+                          <label for="nuevoNombre" class="form-label">Nombre</label>
+                          <input type="text" class="form-control" id="nuevoNombre" aria-describedby="nombreHelp" required>
+                          <div id="nombreHelp" class="form-text mb-3">Ingrese el nombre del prodcuto.</div>
+                          
+                          <label for="nuevaMarca" class="form-label">Marca</label>
+                          <input type="text" class="form-control" id="nuevaMarca" aria-describedby="marcaHelp">
+                          <div id="marcaHelp" class="form-text mb-3">Ingrese la marca del producto.</div>
+                          
+                          <label for="nuevoPrecio" class="form-label">Precio</label>
+                          <input type="number" min="1" class="form-control" id="nuevoPrecio" aria-describedby="precioHelp" required>
+                          <div id="precioHelp" class="form-text">Ingrese el precio del producto.</div>
+                        </div>
+                        <div class="col-8">
+                          <label for="nuevaDescripcion" class="form-label">Descripcion</label>
+                          <textarea class="form-control" rows="10" id="nuevaDescripcion" aria-describedby="descripcionHelp"></textarea>
+                          <div id="descripcionHelp" class="form-text">Ingrese la descripcion del prodcuto.</div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col-4">
+                          <label for="nuevoProductoId" class="form-label">Producto Id</label>
+                          <input type="text" class="form-control" id="nuevoProductoId" aria-describedby="productoIdHelp">
+                          <div id="productoIdHelp" class="form-text">Si el proveedor le dio un id, ingreselo aqui.</div>
+                        </div>
+                        <div class="col-4">
+                          <label for="nuevoDescuento" class="form-label">% de descuento</label>
+                          <input type="number" min="0" max="1" step=".01" class="form-control" id="nuevoDescuento" aria-describedby="descuentoHelp">
+                          <div id="descuentoHelp" class="form-text">Ingrese un valor entre 0 y 1. Ej: 0.1 = 10%... 0.5 = 50%</div>
+                        </div>
+                        <div class="col-4">
+                          <label for="nuevaPromocion" class="form-label">Promocion vigente</label>
+                          <input type="text" class="form-control" id="nuevaPromocion" aria-describedby="promoHelp">
+                          <div id="promoHelp" class="form-text">Ingrese un texto corto. Ej: 50% 2da unidad</div>
+                        </div>
+                      </div>              
+                      <div class="row mb-3">
+                        <div class="col-12">
+                          <label for="nuevaImagenUrl" class="form-label">URL de la imagen</label>
+                          <input type="url" class="form-control" id="nuevaImagenUrl" aria-describedby="imagenHelp" required>
+                          <div id="imagenHelp" class="form-text">Ingrese la url donde está guardada la imagen del producto.</div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-2 mx-auto">
+                          <button id="guardar" type="button" class="btn btn-primary" onclick="agregarProducto()">Agregar</button>
+                          <button id="actualizar" type="button" class="btn btn-primary d-none" onclick="actualizarProducto()">Actualizar</button>
+                        </div>                
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              
+            </form>
+          </div>
+        </div>
+        <div class="row mt-5" id="listaProductos">
+          <div class="col">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Producto Id</th>
+                  <th scope="col">Foto</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Descripcion</th>
+                  <th scope="col">Marca</th>
+                  <th scope="col">Precio</th>
+                  <th scope="col">Descuento</th>
+                  <th scope="col">Promocion</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody id="tableContent">
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="fixed-bottom text-center">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

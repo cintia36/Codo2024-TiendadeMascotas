@@ -1,6 +1,4 @@
 function agregarAlCarrito(boton) {
-    //alert("me hiciste click");
-    //console.log(boton.id);
     var botonElement = document.getElementById(boton.id);
     botonElement.classList.remove('btn-primary');
     botonElement.classList.add('btn-success');
@@ -11,7 +9,7 @@ function agregarAlCarrito(boton) {
 // const productosPerro = [4047, 62, 7120, 631];
 // const productosPeces = [7832, 7687, 7684, 6089];
 // const productosAves = [3007, 9104, 3000];
-const puppisApi = "https://my-json-server.typicode.com/cintia36/Codo2024-TiendadeMascotas/products/";
+const webappApi = "http://localhost:8080/webapp/api/productos";
 
 function mesclarArray(values) {
     let index = values.length,
@@ -30,10 +28,10 @@ function mesclarArray(values) {
     return values;
 }
 
-function crearCard(producto) {
-    const imageUrl = producto.skus[0].image;
-    const nombre = producto.name;
-    const precio = producto.skus[0].bestPrice/ 100;
+function crearRow(producto) {
+    const imageUrl = producto.imageUrl;
+    const nombre = producto.nombre;
+    const precio = producto.precio;
 
     return `
         <div class="col-3 mt-2">                
@@ -50,13 +48,11 @@ function crearCard(producto) {
         </div>`;
 }
 
-fetch(puppisApi)
+fetch(webappApi)
     .then(response => response.json())
     .then((productos) => {
-        const productosMesclados = new Array(...mesclarArray(productos));
-        const productosParaMostrar = productosMesclados.slice(0, 8);
-        const cardsHtmlArray = productosParaMostrar.map(producto => {
-            return crearCard(producto);
+        const cardsHtmlArray = productos.map(producto => {
+            return crearRow(producto);
         });
         const cardsStringHtml = cardsHtmlArray.join('');
         document.getElementById('productosContainer').innerHTML = cardsStringHtml;
